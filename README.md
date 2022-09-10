@@ -134,4 +134,4 @@ Check out this project's [documentation website](https://nikelausm.github.io/yel
 
 <h2 id="certificate">Certificate</h2>
 
-<p align="center"><img src="https://github.com/NikelausM/yelp-camp/blob/master/web-developer-bootcamp-certificate.jpg?raw=true"></p>
+<p align="center"><img src="https://github.com/quang08/Yelp-Camp/blob/master/certificate.jpeg"></p>
