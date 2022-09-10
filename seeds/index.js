@@ -7,7 +7,19 @@ const cities = require('./cities');
 const { places, descriptors } = require('./seedsHelper');
 const Campground = require('../models/campground');
 
-mongoose.connect('mongodb://localhost:27017/yelp-camp', {
+if (process.env.NODE_ENV !== 'production') {
+    require('dotenv').config();
+}
+ 
+const dbUrl = process.env.DB_URL || 'mongodb://localhost:27017/yelp-camp';
+ 
+mongoose.connect('mongodb+srv://admin-quang:08022003@cluster0.jlhdmlk.mongodb.net/?retryWrites=true&w=majority', {
+    // useNewUrlParser    : true,
+    // useCreateIndex     : true,
+    // useUnifiedTopology : true
+});
+
+mongoose.connect('mongodb+srv://admin-quang:08022003@cluster0.jlhdmlk.mongodb.net/?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });

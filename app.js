@@ -51,7 +51,7 @@ app.engine('ejs', ejsMate);
 //Use express-mongo-sanitize preventing Mongo Injection
 app.use(mongoSanitize());
 //***************************************Sessions**************************************
-const secret = process.env.SECRET || '08022003'
+const secret = process.env.SECRET || '08022003'; 
 
 const store = MongoDBStore.create({
   mongoUrl: dbUrl,
