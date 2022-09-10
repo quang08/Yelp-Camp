@@ -15,11 +15,11 @@
 
 <h2 id="introduction">Introduction</h2>
 
-This is a repository of my (Jose Nicolas Mora) YelpCamp project for the Udemy course, [The Web Developer Bootcamp](https://www.udemy.com/course/the-web-developer-bootcamp/).
+This is a repository of my (Nguyen The Quang) YelpCamp project for the Udemy course, [The Web Developer Bootcamp](https://www.udemy.com/course/the-web-developer-bootcamp/).
 
-Check out my [Github](https://github.com/NikelausM/)
+Check out my [Github](https://github.com/quang08/)
 
-Check out my [LinkedIn](https://linkedin.com/in/nicolas-mora-a54245105/)
+Check out my [LinkedIn](https://www.linkedin.com/in/nguyen-the-quang-b8285a227/)
 
 <h2 id="features">Features</h2>
 
@@ -29,13 +29,12 @@ YelpCamp is a yelp style, campground themed website. It allows for users to brow
 - RESTful routes
 - Campground Search (Fuzzy)/Show/Edit/Delete
 - User Show/Edit
-- Liking Campgrounds
-- Comments on Campgrounds
-- Notifications
+- Rating Campgrounds
+- Comments/Review on Campgrounds
 - Authentication
-- Password reset with real emails
 - Admin role
-- Visible Campground location with Google mini-map and marker
+- Cluster Map
+- Visible Campground location with Mini-Map and marker
 - Image uploading to the cloud
 
 ### Added Features
@@ -46,56 +45,27 @@ YelpCamp is a yelp style, campground themed website. It allows for users to brow
       - Async/Await (to significantly reduce callbacks and ease asynchronous programming)
       - let and const (for increased control of scope)
       - etc
-  - Nested comments
-  - Pagination
   - Flash messages for showing helpful information to users
   - Meaningful error messages
-  - Dynamic price feature
 - Back-end
-  - Extensive [documentation](https://nikelausm.github.io/yelp-camp/) using [JSDoc](https://jsdoc.app/)
   - Seperation of routes into [controller classes](https://github.com/NikelausM/yelp-camp/tree/master/lib/controllers) and [routes](https://github.com/NikelausM/yelp-camp/tree/master/lib/routes)
   - Improved mongoose middleware for models to resolve inter [model](https://github.com/NikelausM/yelp-camp/tree/master/lib/models) dependencies
   - [API helper classes](https://github.com/NikelausM/yelp-camp/tree/master/bin/helpers)
   - [Custom stack trace extending error classes](https://github.com/NikelausM/yelp-camp/blob/master/bin/errors/errors.js)
 - Front-end
   - Mobile responsive front end design
-  - Landing page animations
+  - Landing page 
   - Wrapper class for wrapping models used in [View](https://github.com/NikelausM/yelp-camp/tree/master/lib/views) files to de-couple [Model](https://github.com/NikelausM/yelp-camp/tree/master/lib/models) (database) from [View](https://github.com/NikelausM/yelp-camp/tree/master/lib/views)
     - This allows a developer to use the same wrapper class in the views for any model, regardless of complexity
     - This increases encapsulation of models used in views
   - Modals for seeing who likes a Campground
-  - Modals for enlarging images
-  - [Revamped profile page](https://github.com/NikelausM/yelp-camp/tree/master/lib/views/users/show.ejs)
-  - Increased modularity of view layouts and partials, best exemplified by the [comments views](https://github.com/NikelausM/yelp-camp/tree/master/lib/views/comments)
-  - Even more meaningful dynamic error messages
-<h2 id="launch">Launch</h2>
-
-### Setup
-To install, first fork this repository, then in the command line type and enter:
-```
-npm install
-```
-To run:
-```
-node ./lib/app.js
-```
-To run and preserve asynchronous stack traces:
-```
-node ./lib/app.js --async-stack-trace
-```
 
 ### Deployment
-This application is deployed as a read-only version to the following link: [https://yelp-camp-nikelausm.herokuapp.com/](https://yelp-camp-nikelausm.herokuapp.com/)
+This application is deployed as a read-only version to the following link: [https://secret-journey-31554.herokuapp.com/campgrounds](https://secret-journey-31554.herokuapp.com/campgrounds)
 
 You may use the following account to login:
-- username: jackofhearts
+- username: helloworld123
 - password: PNuYtb!2E!UZG&ryQ8*zse&$76eoFf
-
-(note: it's read only, so you won't be able to edit/delete things)
-
-#### Deployment Diagram
-<p align="center"><img src="https://github.com/NikelausM/yelp-camp/blob/master/yelp-camp-deployment-diagram.png?raw=trueg"></p>
-
 
 <h2 id="technologies">Technologies</h2>
 
