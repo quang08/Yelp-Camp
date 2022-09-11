@@ -8,9 +8,7 @@
 
 * [Introduction](#introduction)
 * [Features](#features)
-* [Launch](#launch)
 * [Technologies](#technologies)
-* [Documentation](#documentation)
 * [Certificate](#certificate)
 
 <h2 id="introduction">Introduction</h2>
